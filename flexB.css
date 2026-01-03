@@ -7,6 +7,8 @@
     flex-flow: row wrap;    /* shorthand of flex-direction & flex-wrap */
 
     justify-content: flex-start;  /* main axis alignment */
+    align-items: center;          /* cross axis alignment */
+    align-content: center;      /* multi-line cross axis alignment */
 
 }
 
@@ -22,7 +24,7 @@ div > div {
 
 }
 
-#i1, #i2, #i3, #i4, #i5, #i6, #i7, #i8, #i9, #i10 {
+#i1, #i2, #i3, #i4, #i5, #i6, #i7, #i8, #i9, #i10, #i11 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,6 +34,10 @@ div > div {
 
 #i1 {
     background-color: lightcoral;
+    /* flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 160px; */
+    flex: 2 1 160px;   /* shorthand for flex-grow, flex-shrink, flex-basis */
 }
 #i2 {
     background-color: lightseagreen; 
