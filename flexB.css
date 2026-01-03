@@ -1,0 +1,62 @@
+.mainDiv {
+    /* border: 60px solid black; */
+    padding: 10px;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;    /* shorthand of flex-direction & flex-wrap */
+
+    justify-content: flex-start;
+
+}
+
+div > div {
+    padding: 100px;
+    height: 160px;
+    aspect-ratio: 1 / 1;    /* keeps width and height equal */
+    /* width: 300px; */
+    border: 5px solid darkolivegreen;
+    margin: 8px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
+#i1, #i2, #i3, #i4, #i5, #i6, #i7, #i8, #i9, #i10 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#i1 {
+    background-color: lightcoral;
+}
+#i2 {
+    background-color: lightseagreen; 
+}
+#i3 {
+    background-color: lightblue; 
+}
+#i4 {
+    background-color: khaki; 
+}
+#i5 {
+    background-color: lightpink; 
+}
+#i6 {
+    background-color: lightgray; 
+}
+#i7 {
+    background-color: cyan; 
+}
+#i8 {
+    background-color: lightgreen; 
+}
+#i9 {
+    background-color: rgb(119, 146, 182); 
+}
+#i10 {
+    background-color: violet; 
+    
+}
