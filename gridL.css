@@ -1,0 +1,37 @@
+.wrap {
+    background-color: lightgray;
+    box-shadow: 12px 10px 55px #d1d9e6, -12px -10px 15px #ffffff;
+    margin: 10px;
+
+}
+
+.container {
+    display: grid;
+    grid-template: 2fr 3fr / 2fr 3fr;
+
+}
+
+.box {
+    width: 400px;
+    height: 360px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;    /* Align items to the start of the cross axis (top-left corner) */  
+    font-size: 1.8rem;
+}
+
+.a {
+    background-color: lightcoral;
+}
+.b {
+    background-color: lightblue;
+}
+.c {
+    background-color: lightsalmon;
+}
+.d {
+    background-color: lightgreen;
+}
+.e {
+    background-color: lightpink;
+}
